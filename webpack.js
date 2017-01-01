@@ -2,7 +2,7 @@ var webpack = require('webpack');
 module.exports = {
     cache: false,
     entry: {
-        components : './src/modal'
+        components : './src/react-anim'
     },
     output: {
         // 这个path配置和pipe.dest()冲突

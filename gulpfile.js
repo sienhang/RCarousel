@@ -53,7 +53,7 @@ gulp.task('watch', ['pack_demo'], function() {
         open: "external"
     });
 
-    gulp.watch('demo/*.js', ['pack_demo', function () {
+    gulp.watch(['demo/*.js','src/*.js'], ['pack_demo', function () {
         setTimeout(function () {
             reload();
         }, 1000);

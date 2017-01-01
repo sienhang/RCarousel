@@ -1,1 +1,1 @@
-module.exports = require('./src/modal');
+module.exports = require('./src/carousel/carousel');
